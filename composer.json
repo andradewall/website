@@ -14,13 +14,15 @@
         "livewire/volt": "^1.6"
     },
     "require-dev": {
+        "captainhook/captainhook-phar": "^5.19",
         "fakerphp/faker": "^1.9.1",
+        "larastan/larastan": "^2.7",
         "laravel/pint": "^1.13",
         "laravel/sail": "^1.18",
         "mockery/mockery": "^1.4.4",
         "nunomaduro/collision": "^7.0",
-        "larastan/larastan": "^2.7",
         "phpunit/phpunit": "^10.1",
+        "ramsey/conventional-commits": "^1.5",
         "spatie/laravel-ignition": "^2.0"
     },
     "autoload": {
@@ -61,7 +63,8 @@
         "sort-packages": true,
         "allow-plugins": {
             "pestphp/pest-plugin": true,
-            "php-http/discovery": true
+            "php-http/discovery": true,
+            "captainhook/captainhook-phar": true
         }
     },
     "minimum-stability": "stable",
