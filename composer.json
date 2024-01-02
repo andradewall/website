@@ -11,7 +11,8 @@
         "laravel/sanctum": "^3.3",
         "laravel/tinker": "^2.8",
         "livewire/livewire": "^3.3",
-        "livewire/volt": "^1.6"
+        "livewire/volt": "^1.6",
+        "tallstackui/tallstackui": "^1.8"
     },
     "require-dev": {
         "captainhook/captainhook-phar": "^5.19",
