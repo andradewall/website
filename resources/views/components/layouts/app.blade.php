@@ -19,6 +19,7 @@
     <main class="max-w-screen-lg mx-auto">
         @include('sections.hero')
         @include('sections.about')
+        @include('sections.techs')
     </main>
 
     @livewireScripts
