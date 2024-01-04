@@ -20,6 +20,7 @@
         @include('sections.hero')
         @include('sections.about')
         @include('sections.techs')
+        @include('sections.experience')
     </main>
 
     @livewireScripts
