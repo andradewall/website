@@ -1,15 +1,13 @@
-<section class="bg-pattern dark:bg-pattern py-8">
+<section class="bg-pattern dark:bg-pattern py-16">
     <div class="max-w-screen-lg mx-auto">
-        <div class="text-center">
-            <x-layouts.section-header>
-                <x-slot name="title">
-                    TECHS
-                </x-slot>
-                <x-slot name="sentence">
-                    Stacks and tools I use
-                </x-slot>
-            </x-layouts.section-header>
-        </div>
+        <x-layouts.section-header>
+            <x-slot name="title">
+                TECHS
+            </x-slot>
+            <x-slot name="sentence">
+                Stacks and tools I use
+            </x-slot>
+        </x-layouts.section-header>
 
         <div class="flex flex-col space-y-8 pt-8">
             <div class="space-y-4">
