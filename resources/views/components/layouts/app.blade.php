@@ -13,10 +13,12 @@
     <tallstackui:script />
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body class="min-h-screen bg-neutral-100 dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100">
+<body class="min-h-screen bg-stone-200 dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100">
     @include('components.layouts.navbar')
 
-    {{ $slot }}
+    <main class="max-w-screen-lg mx-auto">
+        @include('sections.hero')
+    </main>
 
     @livewireScripts
 </body>
