@@ -16,7 +16,7 @@
 <body class="min-h-screen bg-stone-200 dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100">
     @include('components.layouts.navbar')
 
-    <main class="max-w-screen-lg mx-auto">
+    <main>
         @include('sections.hero')
         @include('sections.about')
         @include('sections.techs')

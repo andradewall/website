@@ -1,4 +1,4 @@
-<section>
+<section class="max-w-screen-lg mx-auto">
     <div class="text-center">
         <x-layouts.section-header>
             <x-slot name="title">
