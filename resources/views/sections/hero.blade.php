@@ -5,7 +5,7 @@
         </h1>
         <p>
             A full-stack web developer from Brazil 🇧🇷
-            <br />which loves to solve problems with PHP and coffee ☕
+            <br />who loves solving problems with PHP and coffee ☕
         </p>
         <div class="mt-4">
             <x-button text="GET RESUME"
