@@ -1,5 +1,5 @@
 <div class="text-center">
-    <h3 id="{{ Str::lower($title) }}" class="text-red-500 text-sm uppercase">
+    <h3 id="{{ Str::lower($title) }}" class="text-orange-500 text-sm uppercase">
         {{ $title }}
     </h3>
 

@@ -15,22 +15,22 @@
                     Stacks
                 </h4>
                 <ul class="flex space-x-4">
-                    <li><x-badge lg text="PHP" color="red" /></li>
-                    <li><x-badge lg text="Laravel" color="red" /></li>
-                    <li><x-badge lg text="MySQL" color="red" /></li>
-                    <li><x-badge lg text="Livewire" color="red" /></li>
-                    <li><x-badge lg text="AlpineJS" color="red" /></li>
-                    <li><x-badge lg text="TailwindCSS" color="red" /></li>
-                    <li><x-badge lg text="PHPUnit" color="red" /></li>
-                    <li><x-badge lg text="Pest" color="red" /></li>
+                    <li><x-badge lg text="PHP" color="orange" /></li>
+                    <li><x-badge lg text="Laravel" color="orange" /></li>
+                    <li><x-badge lg text="MySQL" color="orange" /></li>
+                    <li><x-badge lg text="Livewire" color="orange" /></li>
+                    <li><x-badge lg text="AlpineJS" color="orange" /></li>
+                    <li><x-badge lg text="TailwindCSS" color="orange" /></li>
+                    <li><x-badge lg text="PHPUnit" color="orange" /></li>
+                    <li><x-badge lg text="Pest" color="orange" /></li>
                 </ul>
                 <ul class="flex space-x-4">
-                    <li><x-badge sm outline text="JavaScript" color="red" /></li>
-                    <li><x-badge sm outline text="jQuery" color="red" /></li>
-                    <li><x-badge sm outline text="NodeJS" color="red" /></li>
-                    <li><x-badge sm outline text="React" color="red" /></li>
-                    <li><x-badge sm outline text="Express" color="red" /></li>
-                    <li><x-badge sm outline text="MongoDB" color="red" /></li>
+                    <li><x-badge sm outline text="JavaScript" color="orange" /></li>
+                    <li><x-badge sm outline text="jQuery" color="orange" /></li>
+                    <li><x-badge sm outline text="NodeJS" color="orange" /></li>
+                    <li><x-badge sm outline text="React" color="orange" /></li>
+                    <li><x-badge sm outline text="Express" color="orange" /></li>
+                    <li><x-badge sm outline text="MongoDB" color="orange" /></li>
                 </ul>
             </div>
 

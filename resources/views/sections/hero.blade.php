@@ -11,7 +11,7 @@
             <x-button text="GET RESUME"
                       icon="arrow-down-tray"
                       position="left"
-                      color="red"
+                      color="orange"
                       lg />
         </div>
     </div>

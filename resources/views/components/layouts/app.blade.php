@@ -6,6 +6,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+
     <title>{{ config('app.name', 'Wallace Andrade') }}</title>
 
     <style> [x-cloak] { display: none; } </style>

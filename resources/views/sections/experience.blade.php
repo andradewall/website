@@ -41,7 +41,7 @@
             </x-timeline.experience>
         </x-timeline.experiences>
 
-        <x-timeline.milestone>JAN 2021 - NOWADAYS</x-timeline.milestone>
+        <x-timeline.milestone>JAN 2023 - NOWADAYS</x-timeline.milestone>
 
         <x-timeline.experiences>
             <x-timeline.experience>

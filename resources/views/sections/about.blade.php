@@ -1,17 +1,26 @@
 <section class="max-w-screen-lg mx-auto">
-    <div class="text-center">
-        <x-layouts.section-header>
-            <x-slot name="title">
-                ABOUT
-            </x-slot>
-            <x-slot name="sentence">
-                ... or start reading about me
-            </x-slot>
-        </x-layouts.section-header>
+    <x-layouts.section-header>
+        <x-slot name="title">
+            ABOUT
+        </x-slot>
+        <x-slot name="sentence">
+            ... or start reading about me
+        </x-slot>
+    </x-layouts.section-header>
 
-        <a href="#about">
-            <x-icon name="chevron-double-down" class="w-full h-8 text-neutral-500 mt-4"/>
-        </a>
+    <div class="w-full mt-4 text-center">
+        <x-link fragment="about"
+                icon="chevron-double-down"
+                color="neutral"
+                :personalize="[
+                    'icon.size' =>  [
+                        'replace' => [
+                            'w-4' => 'w-12',
+                            'h-4' => 'h-12',
+                        ]
+                    ]
+                ]"
+        />
     </div>
 
     <div class="h-[70dvh] flex items-center">

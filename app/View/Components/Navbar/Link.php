@@ -33,7 +33,7 @@ class Link extends \TallStackUi\View\Components\Link
     {
         return [
             'marcelin' => 'text-marcelin-600 dark:text-marcelin hover:text-marcelin-800 transition duration-200 ease-in-out',
-            'neutral'  => 'text-neutral-600 dark:text-neutral-400 hover:text-marcelin transition duration-200 ease-in-out',
+            'neutral'  => 'text-neutral-600 dark:text-neutral-400 hover:text-morbius transition duration-200 ease-in-out',
         ];
     }
 
