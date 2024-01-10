@@ -23,6 +23,7 @@
         @include('sections.about')
         @include('sections.techs')
         @include('sections.experience')
+        @include('sections.contact')
     </main>
 
     @livewireScripts
