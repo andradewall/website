@@ -9,7 +9,7 @@
     </x-layouts.section-header>
 
     <div class="w-full mt-4 text-center">
-        <x-link fragment="about"
+        <x-ts-link fragment="about"
                 icon="chevron-double-down"
                 color="neutral"
                 :personalize="[
