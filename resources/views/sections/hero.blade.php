@@ -8,7 +8,7 @@
             <br />who loves solving problems with PHP and coffee ☕
         </p>
         <div class="mt-4">
-            <x-button text="GET RESUME"
+            <x-ts-button text="GET RESUME"
                       icon="arrow-down-tray"
                       position="left"
                       color="orange"
