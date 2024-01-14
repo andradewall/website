@@ -9,10 +9,11 @@
         </p>
         <div class="mt-4">
             <x-ts-button text="GET RESUME"
-                      icon="arrow-down-tray"
-                      position="left"
-                      color="orange"
-                      lg />
+                         icon="arrow-down-tray"
+                         position="left"
+                         color="orange"
+                         href="{{ route('resume') }}"
+                         lg />
         </div>
     </div>
     <x-draws.coding />
