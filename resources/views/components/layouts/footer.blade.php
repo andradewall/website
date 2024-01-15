@@ -2,7 +2,7 @@
     This page was created by myself with
     <x-ts-link href="https://laravel.com" text="Laravel"/>
     and
-    <x-ts-link href="htts://tallstackui.com" text="TallStackUI"/>
+    <x-ts-link href="https://tallstackui.com" text="TallStackUI"/>
     using
     <x-ts-link href="https://undraw.co" text="unDraw"/> illustrations
     and
