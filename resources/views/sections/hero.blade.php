@@ -13,6 +13,11 @@
                          position="left"
                          color="orange"
                          href="{{ route('resume') }}"
+                         :personalize="[
+                             'wrapper.class' => [
+                                 'append' => 'hover:scale-105 active:scale-100',
+                             ],
+                         ]"
                          lg />
         </div>
     </div>
