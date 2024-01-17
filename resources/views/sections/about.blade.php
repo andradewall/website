@@ -18,7 +18,10 @@
                             'w-4' => 'w-12',
                             'h-4' => 'h-12',
                         ]
-                    ]
+                    ],
+                    'icon.base' => [
+                        'append' => 'animate-bounce',
+                    ],
                 ]"
         />
     </div>
