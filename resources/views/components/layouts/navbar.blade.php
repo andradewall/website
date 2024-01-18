@@ -1,4 +1,4 @@
-<nav class="bg-transparent">
+<nav class="bg-transparent animation-fade">
     <div class="flex justify-between max-w-screen-lg mx-auto py-8">
         <x-navbar.logo />
         <x-navbar.links />
