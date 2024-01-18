@@ -1,5 +1,5 @@
-<section class="max-w-screen-lg mx-auto h-[70dvh] flex justify-between items-center animation-fade-up">
-    <div>
+<section class="max-w-screen-lg mx-auto h-[70dvh] flex justify-between items-center">
+    <div class="animation-fade-right">
         <h1 class="text-3xl font-bold mb-4">
             Hello, I'm Wallace Andrade
         </h1>
@@ -21,5 +21,5 @@
                          lg />
         </div>
     </div>
-    <x-draws.coding />
+    <x-draws.coding class="animation-fade-left" />
 </section>

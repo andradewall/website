@@ -8,7 +8,7 @@
         </x-slot>
     </x-layouts.section-header>
 
-    <div class="w-full h-[70dvh] mx-auto pt-12 grid grid-cols-[1fr_3px_1fr]">
+    <div class="w-full h-[70dvh] mx-auto pt-12 grid grid-cols-[1fr_3px_1fr] animate">
 
         <x-timeline.blank />
 

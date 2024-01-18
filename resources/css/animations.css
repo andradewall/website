@@ -1,7 +1,18 @@
-@keyframes fade-up {
+@keyframes fade-right {
     from {
         opacity: 0;
-        transform: translateY(2rem);
+        transform: translateX(-2rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fade-left {
+    from {
+        opacity: 0;
+        transform: translateX(2rem);
     }
     to {
         opacity: 1;
@@ -18,8 +29,18 @@
     }
 }
 
-.animation-fade-up {
-    animation-name: fade-up;
+.animate {
+    opacity: 0;
+}
+
+.animation-fade-right {
+    animation-name: fade-right;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+}
+
+.animation-fade-left {
+    animation-name: fade-left;
     animation-duration: 4s;
     animation-fill-mode: both;
 }
