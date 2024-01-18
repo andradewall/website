@@ -8,7 +8,7 @@
         </x-slot>
     </x-layouts.section-header>
 
-    <div class="w-full mt-4 text-center">
+    <div class="w-full mt-4 mb-4 text-center animate">
         <x-ts-link fragment="about"
                 icon="chevron-double-down"
                 color="neutral"
@@ -18,12 +18,15 @@
                             'w-4' => 'w-12',
                             'h-4' => 'h-12',
                         ]
-                    ]
+                    ],
+                    'icon.base' => [
+                        'append' => 'animate-bounce',
+                    ],
                 ]"
         />
     </div>
 
-    <div class="h-[70dvh] flex items-center">
+    <div class="h-[70dvh] flex items-center animate ">
         <x-draws.hello class="w-1/2 pr-8 rounded-md"/>
         <div class="w-1/2 pl-8 flex flex-col space-y-4">
             <p>

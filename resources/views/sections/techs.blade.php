@@ -9,7 +9,7 @@
             </x-slot>
         </x-layouts.section-header>
 
-        <div class="h-[70dvh] flex flex-col justify-center space-y-16 pt-8">
+        <div class="h-[70dvh] flex flex-col justify-center space-y-16 pt-8 animate">
             <div class="space-y-4">
                 <h4 class="font-semibold">
                     Stacks

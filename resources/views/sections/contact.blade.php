@@ -8,7 +8,7 @@
         </x-slot>
     </x-layouts.section-header>
 
-    <div class="h-[70dvh] space-y-6 flex flex-col justify-center items-center mt-8">
+    <div class="h-[70dvh] space-y-6 flex flex-col justify-center items-center mt-8 animate">
         <div>
             You can chat with me on LinkedIn, see my projects on GitHub or e-mail me at contact@wllc.dev
         </div>
