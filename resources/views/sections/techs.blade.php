@@ -14,7 +14,7 @@
                 <h4 class="font-semibold">
                     Stacks
                 </h4>
-                <ul class="flex space-x-4">
+                <ul class="flex flex-wrap gap-4">
                     <li><x-ts-badge lg text="PHP" color="orange" /></li>
                     <li><x-ts-badge lg text="Laravel" color="orange" /></li>
                     <li><x-ts-badge lg text="MySQL" color="orange" /></li>
@@ -24,7 +24,7 @@
                     <li><x-ts-badge lg text="PHPUnit" color="orange" /></li>
                     <li><x-ts-badge lg text="Pest" color="orange" /></li>
                 </ul>
-                <ul class="flex space-x-4">
+                <ul class="flex flex-wrap gap-4">
                     <li><x-ts-badge sm outline text="JavaScript" color="orange" /></li>
                     <li><x-ts-badge sm outline text="jQuery" color="orange" /></li>
                     <li><x-ts-badge sm outline text="NodeJS" color="orange" /></li>
@@ -38,7 +38,7 @@
                 <h4 class="font-semibold">
                     Tools
                 </h4>
-                <ul class="flex space-x-4">
+                <ul class="flex flex-wrap gap-4">
                     <li><x-ts-badge sm outline text="Git" color="gray" /></li>
                     <li><x-ts-badge sm outline text="GitHub" color="gray" /></li>
                     <li><x-ts-badge sm outline text="Docker" color="gray" /></li>
