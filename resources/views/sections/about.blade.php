@@ -26,7 +26,7 @@
         />
     </div>
 
-    <div class="h-[70dvh] flex items-center animate ">
+    <div class="h-[70dvh] flex items-center animate px-4">
         <x-draws.hello class="w-1/2 pr-8 rounded-md"/>
         <div class="w-1/2 pl-8 flex flex-col space-y-4">
             <p>
