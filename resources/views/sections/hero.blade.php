@@ -1,4 +1,4 @@
-<section class="max-w-screen-lg mx-auto h-[70dvh] flex justify-between items-center">
+<section class="max-w-screen-lg mx-auto h-[70dvh] flex justify-between items-center px-4">
     <div class="animation-fade-right">
         <h1 class="text-3xl font-bold mb-4">
             Hello, I'm Wallace Andrade
