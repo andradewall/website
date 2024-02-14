@@ -1,14 +1,12 @@
-<section class="max-w-screen-lg mx-auto">
-    <x-section.header>
-        <x-slot name="title">
-            ABOUT
-        </x-slot>
-        <x-slot name="sentence">
-            ... or start reading about me
-        </x-slot>
-    </x-section.header>
+<x-section>
+    <x-slot name="title">
+        ABOUT
+    </x-slot>
+    <x-slot name="sentence">
+        ... or start reading about me
+    </x-slot>
 
-    <div class="w-full mt-4 mb-4 text-center animate">
+    <div class="w-full mt-4 mb-12 text-center animate">
         <x-ts-link fragment="about"
                 icon="chevron-double-down"
                 color="neutral"
@@ -26,9 +24,9 @@
         />
     </div>
 
-    <div class="h-[70dvh] flex items-center animate px-4">
-        <x-draws.hello class="w-1/2 pr-8 rounded-md"/>
-        <div class="w-1/2 pl-8 flex flex-col space-y-4">
+    <div class="w-full flex flex-col mx-auto items-center animate md:flex-row lg:max-w-screen-lg md:px-4">
+        <x-draws.hello class="rounded-md mb-12 max-w-md"/>
+        <div class="flex flex-col space-y-8 px-12 md:ml-6 md:w-1/2">
             <p>
                 I have over 7+ years of experience in software development, focused on websites and applications,
                 creating solutions mainly with <strong>PHP</strong> and <strong>Laravel</strong>.
@@ -38,4 +36,4 @@
             </p>
         </div>
     </div>
-</section>
+</x-section>
