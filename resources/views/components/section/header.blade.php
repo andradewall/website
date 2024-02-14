@@ -1,4 +1,4 @@
-<div id="{{ Str::lower($title) }}" class="text-center animate animate-header">
+<div class="animate animate-header text-center">
     <h3 class="text-sm uppercase text-orange-500">
         {{ $title }}
     </h3>
