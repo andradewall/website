@@ -1,13 +1,13 @@
 <section class="bg-pattern dark:bg-pattern py-16">
     <div class="max-w-screen-lg mx-auto">
-        <x-layouts.section-header>
+        <x-section.header>
             <x-slot name="title">
                 TECHS
             </x-slot>
             <x-slot name="sentence">
                 Stacks and tools I use
             </x-slot>
-        </x-layouts.section-header>
+        </x-section.header>
 
         <div class="h-[70dvh] flex flex-col justify-center space-y-16 pt-8 animate px-4">
             <div class="space-y-4">

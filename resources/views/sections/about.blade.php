@@ -1,12 +1,12 @@
 <section class="max-w-screen-lg mx-auto">
-    <x-layouts.section-header>
+    <x-section.header>
         <x-slot name="title">
             ABOUT
         </x-slot>
         <x-slot name="sentence">
             ... or start reading about me
         </x-slot>
-    </x-layouts.section-header>
+    </x-section.header>
 
     <div class="w-full mt-4 mb-4 text-center animate">
         <x-ts-link fragment="about"

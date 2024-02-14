@@ -1,12 +1,10 @@
-<section class="mx-auto flex h-dvh max-w-screen-lg flex-col py-16">
-    <x-layouts.section-header>
-        <x-slot name="title">
-            CONTACT
-        </x-slot>
-        <x-slot name="sentence">
-            Let's get in touch
-        </x-slot>
-    </x-layouts.section-header>
+<x-section>
+    <x-slot name="title">
+        CONTACT
+    </x-slot>
+    <x-slot name="sentence">
+        Let's get in touch
+    </x-slot>
 
     <div class="animate mt-8 flex flex-grow flex-col items-center justify-center space-y-6 px-4">
         <div class="w-1/2 text-wrap py-12 text-center">
@@ -26,4 +24,4 @@
                       href="mailto:contact@wllc.dev" />
         </div>
     </div>
-</section>
+</x-section>
