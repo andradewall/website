@@ -57,7 +57,6 @@
 
         <x-timeline.milestone>MAR 2016 - JAN 2023</x-timeline.milestone>
 
-        <x-timeline.blank></x-timeline.blank>
-
+        <x-timeline.blank />
     </div>
 </x-section>
