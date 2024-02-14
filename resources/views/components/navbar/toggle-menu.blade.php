@@ -17,9 +17,9 @@
         ],
     ]">
     <ul class="flex flex-col space-y-8 uppercase">
-        <x-navbar.link text="About" href="/" fragment="about"/>
-        <x-navbar.link text="Techs" href="/" fragment="techs"/>
-        <x-navbar.link text="Experience" href="/" fragment="experience"/>
-        <x-navbar.link text="Contact" href="/" fragment="contact"/>
+        <x-navbar.link text="About" href="/" fragment="about" x-on:click="$slideClose('menu')"/>
+        <x-navbar.link text="Techs" href="/" fragment="techs" x-on:click="$slideClose('menu')"/>
+        <x-navbar.link text="Experience" href="/" fragment="experience" x-on:click="$slideClose('menu')"/>
+        <x-navbar.link text="Contact" href="/" fragment="contact" x-on:click="$slideClose('menu')"/>
     </ul>
 </x-ts-slide>
