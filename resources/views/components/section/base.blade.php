@@ -1,4 +1,4 @@
-<section id="{{ Str::lower($title) }}" class="mx-auto flex h-dvh max-w-screen-lg flex-col px-4 py-16">
+<section id="{{ Str::lower($title) }}" class="mx-auto flex min-h-fit max-w-screen-lg flex-col px-4 py-16">
     <x-section.header>
         <x-slot name="title">
             {{ $title}}
