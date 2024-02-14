@@ -1,4 +1,4 @@
-<section class="bg-pattern dark:bg-pattern py-16">
+<section class="bg-pattern dark:bg-pattern py-16 px-4">
     <div class="max-w-screen-lg mx-auto">
         <x-section.header>
             <x-slot name="title">
@@ -9,7 +9,7 @@
             </x-slot>
         </x-section.header>
 
-        <div class="h-[70dvh] flex flex-col justify-center space-y-16 pt-8 animate px-4">
+        <div class=" min-h-fit flex flex-col justify-center space-y-16 pt-8 animate">
             <div class="space-y-4">
                 <h4 class="font-semibold">
                     Stacks
