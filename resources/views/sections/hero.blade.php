@@ -1,6 +1,7 @@
-<section class="max-w-screen-lg mx-auto h-[70dvh] flex justify-between items-center px-4">
-    <div class="animation-fade-right">
-        <h1 class="text-3xl font-bold mb-4">
+<section class="mx-auto flex flex-col items-center justify-between px-4 sm:h-[60dvh] sm:flex-row-reverse lg:max-w-screen-lg">
+    <x-draws.coding class="animation-fade-left my-8" />
+    <div class="animation-fade-right my-8">
+        <h1 class="mb-4 text-3xl font-bold">
             Hello, I'm Wallace Andrade
         </h1>
         <p>
@@ -21,5 +22,4 @@
                          lg />
         </div>
     </div>
-    <x-draws.coding class="animation-fade-left" />
 </section>
