@@ -2,15 +2,11 @@
 
     <x-ts-icon name="sun"
             x-show="darkTheme"
-            class="w-6 h-6 text-neutral-600 dark:text-neutral-400 hover:text-morbius transition duration-200
-            ease-in-out
-            cursor-pointer"
+            class="hover:text-morbius h-6 w-6 cursor-pointer text-neutral-600 transition duration-200 ease-in-out dark:text-neutral-400"
     />
 
     <x-ts-icon name="moon"
             x-show="!darkTheme"
-            class="w-6 h-6 text-neutral-600 dark:text-neutral-400 hover:text-morbius transition duration-200
-            ease-in-out
-            cursor-pointer"
+            class="hover:text-morbius h-6 w-6 cursor-pointer text-neutral-600 transition duration-200 ease-in-out dark:text-neutral-400"
     />
 </div>
