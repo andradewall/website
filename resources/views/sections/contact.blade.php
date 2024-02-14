@@ -1,4 +1,4 @@
-<section class="max-w-screen-lg mx-auto py-16">
+<section class="max-w-screen-lg mx-auto py-16 h-dvh flex flex-col">
     <x-layouts.section-header>
         <x-slot name="title">
             CONTACT
@@ -8,11 +8,11 @@
         </x-slot>
     </x-layouts.section-header>
 
-    <div class="h-[70dvh] space-y-6 flex flex-col justify-center items-center mt-8 animate px-4">
-        <div>
-            You can chat with me on LinkedIn, see my projects on GitHub or e-mail me at contact@wllc.dev
+    <div class=" space-y-6 justify-center items-center mt-8 animate px-4 flex-grow flex flex-col">
+        <div class="py-12 w-1/2 text-wrap text-center">
+            You can chat with me on LinkedIn, see my projects on GitHub or e-mail me at <x-ts-link href="mailto:contact@wllc.dev">contact@wllc.dev</x-ts-link>
         </div>
-        <div class="flex space-x-8">
+        <div class="flex flex-grow flex-col items-center justify-center space-y-16 lg:flex-row lg:space-x-8 lg:space-y-0 xl:space-x-16">
             <x-button text="LINKEDIN"
                       icon-name="linkedin"
                       href="https://www.linkedin.com/in/wllc-dev/" />
