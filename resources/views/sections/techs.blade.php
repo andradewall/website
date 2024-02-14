@@ -9,7 +9,7 @@
             </x-slot>
         </x-section.header>
 
-        <div class=" min-h-fit flex flex-col justify-center space-y-16 pt-8 animate">
+        <div class="animate flex min-h-fit flex-col justify-center space-y-16 pt-8">
             <div class="space-y-4">
                 <h4 class="font-semibold">
                     Stacks

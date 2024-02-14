@@ -1,4 +1,4 @@
-<footer class="w-full bg-stone-700 text-stone-200 py-8 text-center">
+<footer class="w-full bg-stone-800 dark:bg-neutral-800 py-8 text-center text-stone-200">
     This page was created by myself with
     <x-ts-link href="https://laravel.com" text="Laravel"/>
     and

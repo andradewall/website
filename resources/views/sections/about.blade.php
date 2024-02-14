@@ -6,7 +6,7 @@
         ... or start reading about me
     </x-slot>
 
-    <div class="w-full mt-4 mb-12 text-center animate">
+    <div class="animate mb-12 mt-4 w-full text-center">
         <x-ts-link fragment="about"
                 icon="chevron-double-down"
                 color="neutral"
@@ -24,8 +24,8 @@
         />
     </div>
 
-    <div class="w-full flex flex-col mx-auto items-center animate md:flex-row lg:max-w-screen-lg md:px-4">
-        <x-draws.hello class="rounded-md mb-12 max-w-md"/>
+    <div class="animate mx-auto flex w-full flex-col items-center md:flex-row md:px-4 lg:max-w-screen-lg">
+        <x-draws.hello class="mb-12 max-w-md rounded-md"/>
         <div class="flex flex-col space-y-8 px-12 md:ml-6 md:w-1/2">
             <p>
                 I have over 7+ years of experience in software development, focused on websites and applications,
