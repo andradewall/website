@@ -1,15 +1,12 @@
-<section class="max-w-screen-lg mx-auto py-16">
-    <x-layouts.section-header>
-        <x-slot name="title">
-            EXPERIENCE
-        </x-slot>
-        <x-slot name="sentence">
-            Projects and companies I've worked with
-        </x-slot>
-    </x-layouts.section-header>
+<x-section>
+    <x-slot name="title">
+        EXPERIENCE
+    </x-slot>
+    <x-slot name="sentence">
+        Projects and companies I've worked with
+    </x-slot>
 
-    <div class="w-full lg:h-[70dvh] mx-auto pt-12 grid grid-cols-[1fr_3px_1fr] animate px-4">
-
+    <div class="animate mx-auto grid w-full grid-cols-[min-content_3px_1fr] px-4 pt-12 sm:grid-cols-[1fr_3px_1fr]">
         <x-timeline.blank />
 
         <x-timeline.present />
@@ -63,4 +60,4 @@
         <x-timeline.blank></x-timeline.blank>
 
     </div>
-</section>
+</x-section>
