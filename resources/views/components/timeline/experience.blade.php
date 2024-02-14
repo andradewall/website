@@ -10,5 +10,5 @@
                       blank />
         @endif
     </h3>
-    <p>{{ $description }}</p>
+    <p class="max-w-md">{{ $description }}</p>
 </div>

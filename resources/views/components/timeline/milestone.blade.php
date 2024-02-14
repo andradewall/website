@@ -1,8 +1,7 @@
-<div class="text-right mr-8 text-orange-500">
+<div class="mr-8 text-right text-orange-500">
     {{ $slot }}
 </div>
 
-<div class="relative bg-orange-500 w-0.5 h-full">
-    <div class="timeline-circle absolute top-1 left-1/2 w-4 h-4 rounded-full
-            bg-orange-500 transform -translate-x-1/2"></div>
+<div class="relative h-full w-0.5 bg-orange-500">
+    <div class="timeline-circle absolute left-1/2 top-1 h-4 w-4 -translate-x-1/2 transform rounded-full bg-orange-500"></div>
 </div>

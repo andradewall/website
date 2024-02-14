@@ -16,7 +16,7 @@
     <tallstackui:script/>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body class="min-h-screen bg-stone-200 dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100">
+<body class="bg-stone-200 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
 @include('components.layouts.navbar')
 
 <main>

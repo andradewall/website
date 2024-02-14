@@ -9,14 +9,10 @@ class Link extends \TallStackUi\View\Components\Link
     public function __construct(
         public ?string $text,
         public ?string $href,
-        public ?string $color = null,
+        public ?string $color = 'neutral',
         public ?string $lg = null,
         public ?string $fragment = null,
     ) {
-        if (is_null($color)) {
-            $color = 'neutral';
-        }
-
         parent::__construct(
             text: $text,
             href: $href,
@@ -32,8 +28,8 @@ class Link extends \TallStackUi\View\Components\Link
     public function textColor(): array
     {
         return [
-            'orange'  => 'text-orange-600 dark:text-orange-400 hover:text-orange-800 transition duration-200 ease-in-out',
-            'neutral' => 'text-neutral-600 dark:text-neutral-400 hover:text-morbius transition duration-200 ease-in-out',
+            'orange'  => 'text-orange-600 transition duration-200 ease-in-out hover:text-orange-800 dark:text-orange-400',
+            'neutral' => 'hover:text-morbius dark:hover:text-morbius text-neutral-600 transition duration-200 ease-in-out dark:text-neutral-400',
         ];
     }
 
